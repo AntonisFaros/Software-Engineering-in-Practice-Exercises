@@ -2,6 +2,9 @@
 .settings/
 .classpath
 .project
+.target/
+#Build Files
+pom.xml
 
 #Generated Files
 *.class
