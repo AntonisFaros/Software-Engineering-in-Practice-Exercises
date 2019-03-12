@@ -2,7 +2,7 @@
 .settings/
 .classpath
 .project
-.target/
+
 #Build Files
 pom.xml
 
