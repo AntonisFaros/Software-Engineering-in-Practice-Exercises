@@ -4,7 +4,7 @@
   <artifactId>seip2019</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>Parent Project</name>
+  <name>Software Engineering in Practice Exercises 2019</name>
   <description>Project including all exercises during spring semester 2019</description>
   <modules>
   	<module>gradehistogram</module>
