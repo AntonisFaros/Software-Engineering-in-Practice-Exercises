@@ -1,0 +1,12 @@
+#Eclipse Files
+.settings/
+.classpath
+.project
+.target/
+
+
+#Generated Files
+*.class
+
+#Resource Files
+grades.txt
