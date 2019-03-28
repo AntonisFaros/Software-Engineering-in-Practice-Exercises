@@ -8,5 +8,6 @@
   <description>Project including all exercises during spring semester 2019</description>
   <modules>
   	<module>gradehistogram</module>
+  	<module>JavaMetrics</module>
   </modules>
 </project>
