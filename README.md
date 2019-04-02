@@ -27,6 +27,7 @@ mvn package
 
 ## Projects
 * [Grade Histogram](gradehistogram/README.md) 
+* [JavaMetrics](JavaMetrics/README.md)
 
 
 ## Built With
