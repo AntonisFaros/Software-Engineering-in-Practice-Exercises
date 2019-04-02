@@ -1,5 +1,5 @@
-# Grade Histogram
-A java application in order to create a histogram from a txt file containing grades.
+# Java Metrics
+A java application in order to calculate metrics of ajava source code file such as lines of code, number of methods and number of classes.
 
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes
