@@ -20,3 +20,6 @@ mvn package
 java -jar JavaMetrics-0.0.1-SNAPSHOT.jar  [sourcefile] [string or regex]
 ```
 * The program will create a file name metricc.txt containing all the calculated metrics into tmp/test which will be made into the root folder.
+
+### UML Diagram
+* [JavaMetrics](JavaMetrics.pdf)
