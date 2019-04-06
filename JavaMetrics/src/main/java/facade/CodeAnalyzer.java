@@ -13,7 +13,7 @@ import factory_strategy.Analyzer;
  * @author afaros
  *
  */
-public class Facade {
+public class CodeAnalyzer {
 
 	ArrayList<String> input;
 
