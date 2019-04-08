@@ -18,19 +18,17 @@ Java Version : 1.5
 * You need to build the application using(make sure you're on the right directory): 
 
 ```
-cd Software-Engineering-in-Practice-Exercises
+cd Software-Engineering-in-Practice-Exercises/project_you_want_to_build
 ```
 
 ```
 mvn package
 ```
 
-* After you have built the jar you can run it by using :
-```
-java -jar exampleapp-0.0.1-SNAPSHOT-jar-with-dependencies.jar  example.txt
-```
-* exampleapp --> the name of the application you want to run
-* example.txt --> the file you provide as input
+## Projects
+* [Grade Histogram](gradehistogram/README.md) 
+* [JavaMetrics](JavaMetrics/README.md)
+
 
 ## Built With
 
