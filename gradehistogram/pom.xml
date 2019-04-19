@@ -18,7 +18,7 @@
 
 
 	<dependencies>
-	<!-- This dependency is bound only to this module -->
+		<!-- This dependency is bound only to this module -->
 		<dependency>
 			<groupId>org.jfree</groupId>
 			<artifactId>jfreechart</artifactId>
@@ -32,7 +32,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>HistogramGenerator</mainClass> 
+							<mainClass>HistogramGenerator</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
@@ -41,8 +41,8 @@
 				</configuration>
 				<executions>
 					<execution>
-						<id>make-assembly</id> 
-						<phase>package</phase> 
+						<id>make-assembly</id>
+						<phase>package</phase>
 						<goals>
 							<goal>single</goal>
 						</goals>

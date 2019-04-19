@@ -9,5 +9,6 @@
   <modules>
   	<module>gradehistogram</module>
   	<module>JavaMetrics</module>
+  	<module>UnitTesting</module>
   </modules>
 </project>
