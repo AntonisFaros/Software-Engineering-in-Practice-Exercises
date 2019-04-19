@@ -1,6 +1,7 @@
 package operations;
 
 import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
 /**
  *A public class implementing a test suite for
  *the tests IntegerOperationsTest_powerOfTwo_ParemeterizedTest

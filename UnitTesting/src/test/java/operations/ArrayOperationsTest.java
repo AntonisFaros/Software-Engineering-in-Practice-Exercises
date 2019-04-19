@@ -33,10 +33,23 @@ public class ArrayOperationsTest {
 				.thenReturn(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 });
 		when(file.readFile("src/test/resources/invalidinputs.txt")).thenThrow(NumberFormatException.class);
 		when(file.readFile("src/test/resources/wrong.txt")).thenThrow(IllegalArgumentException.class);
-
+		
 		Assert.assertEquals(10, arro.findMaxInFile("src/test/resources/validinputs.txt"));
-
+		
 	}
+	
+	@Test (expected = IllegalArgumentException.class)
+	public void test_findMaxInFile_Mocking_Exceptions() {
+		when(file.readFile("src/test/resources/emptyfile.txt")).thenThrow(IllegalArgumentException.class);
+		arro.findMaxInFile("src/test/resources/emptyfile.txt");
+	}
+	
+	@Test (expected = IllegalArgumentException.class)
+	public void test_reverseFile_Mocking_Exceptions() {
+		when(file.readFile("src/test/resources/emptyfile.txt")).thenThrow(IllegalArgumentException.class);
+		arro.reverseArray("src/test/resources/emptyfile.txt");
+	}
+	
 
 	/*
 	 * Test case implementing mocks of the classes FileIO and IntegerOperations

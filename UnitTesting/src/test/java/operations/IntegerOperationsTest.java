@@ -83,7 +83,20 @@ public class IntegerOperationsTest {
 		thrown.expect(IllegalArgumentException.class);
 		into.powerOfTwo(32);
 	}
-
+	/*
+	 * Zero as input , expected 1 as output
+	 */
+	@Test
+	public void test_power_of_Two_zero() {
+		Assert.assertEquals(1,into.powerOfTwo(0));
+	}
+	/*
+	 * 1 as input , expected 2 as output
+	 */
+	@Test
+	public void test_power_of_Two_one() {
+		Assert.assertEquals(2,into.powerOfTwo(1));
+	}
 	
 
 }
