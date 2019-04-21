@@ -1,2 +1,6 @@
 language : java
-script : mvn package jacoco:report coveralls:report
+
+script : mvn package jacoco:report 
+    
+after_success:
+  - bash <(curl -s https://codecov.io/bash) -t da55b31d-1958-4808-8fd4-f9de79691e93   
