@@ -1,2 +1,2 @@
 language : java
-script : mvn package jacoco:report coverralls:report
+script : mvn package jacoco:report coveralls:report
