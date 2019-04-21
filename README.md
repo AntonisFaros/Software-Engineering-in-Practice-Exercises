@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.com/AntonisFaros/Software-Engineering-in-Practice-Exercises.svg?branch=master)](https://travis-ci.com/AntonisFaros/Software-Engineering-in-Practice-Exercises)
 [![Coverage Status](https://coveralls.io/repos/github/AntonisFaros/Software-Engineering-in-Practice-Exercises/badge.svg?branch=master)](https://coveralls.io/github/AntonisFaros/Software-Engineering-in-Practice-Exercises?branch=master)
-
+[![codecov](https://codecov.io/gh/AntonisFaros/Software-Engineering-in-Practice-Exercises/branch/master/graph/badge.svg?token=CawggwYXwi)](https://codecov.io/gh/AntonisFaros/Software-Engineering-in-Practice-Exercises)
 # Software-Engineering-in-Practice-Exercises
 A repository including all projects done during the course of Software Engineering in Practice during Spring Semester 2019 in the Athens University of Economics and Business
 
