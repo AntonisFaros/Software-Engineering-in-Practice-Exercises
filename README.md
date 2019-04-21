@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/AntonisFaros/Software-Engineering-in-Practice-Exercises.svg?branch=master)](https://travis-ci.com/AntonisFaros/Software-Engineering-in-Practice-Exercises)
 [![Coverage Status](https://coveralls.io/repos/github/AntonisFaros/Software-Engineering-in-Practice-Exercises/badge.svg?branch=master)](https://coveralls.io/github/AntonisFaros/Software-Engineering-in-Practice-Exercises?branch=master)
 
 # Software-Engineering-in-Practice-Exercises
