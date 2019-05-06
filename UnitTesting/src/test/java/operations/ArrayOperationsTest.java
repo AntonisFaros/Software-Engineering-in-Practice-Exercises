@@ -7,6 +7,8 @@ import org.junit.Test;
 import filehandlers.FileIO;
 
 import static org.mockito.Mockito.*;
+
+import java.util.Arrays;
 /**
  * 
  * @author afaros
@@ -40,13 +42,15 @@ public class ArrayOperationsTest {
 	
 	@Test (expected = IllegalArgumentException.class)
 	public void test_findMaxInFile_Mocking_Exceptions() {
-		when(file.readFile("src/test/resources/emptyfile.txt")).thenThrow(IllegalArgumentException.class);
+		int [] empty = {};
+		when(file.readFile("src/test/resources/emptyfile.txt")).thenReturn(empty);
 		arro.findMaxInFile("src/test/resources/emptyfile.txt");
 	}
 	
 	@Test (expected = IllegalArgumentException.class)
 	public void test_reverseFile_Mocking_Exceptions() {
-		when(file.readFile("src/test/resources/emptyfile.txt")).thenThrow(IllegalArgumentException.class);
+		int [] empty = {};
+		when(file.readFile("src/test/resources/emptyfile.txt")).thenReturn(empty);
 		arro.reverseArray("src/test/resources/emptyfile.txt");
 	}
 	
